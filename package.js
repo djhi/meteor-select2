@@ -6,11 +6,13 @@ Package.on_use(function (api) {
     api.use("jquery", "client");
 
     api.add_files([
-        "lib/select2/select2.js"
+        "lib/select2/select2.js",
+        "lib/select2/select2_locale_fr.js"
     ], "client", {bare: true});
 
     api.add_files([
         "lib/select2/select2.css",
+        "lib/select2/select2-bootstrap.css",
         "lib/select2/select2.png",
         "lib/select2/select2x2.png",
         "lib/select2/select2-spinner.gif",
